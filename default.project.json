@@ -1,0 +1,19 @@
+{
+  "name": "restarea",
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server",
+        "$className": "Configuration"
+      }
+    },
+
+    "ReplicatedFirst": {
+      "Client": {
+        "$path": "src/client"
+      }
+    }
+  }
+}
